@@ -1,0 +1,979 @@
+TRACE::2026-06-29.16:38:10::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:10::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:10::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:12::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:12::SCWPlatform::Do not have an existing db opened. 
+TRACE::2026-06-29.16:38:12::SCWPlatform::Opened new HwDB with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:12::SCWWriter::formatted JSON is {
+	"platformName":	"axi_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_system_wrapper",
+	"platHandOff":	"D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2026-06-29.16:38:12::SCWWriter::formatted JSON is {
+	"platformName":	"axi_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_system_wrapper",
+	"platHandOff":	"D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_system_wrapper",
+	"systems":	[{
+			"systemName":	"axi_system_wrapper",
+			"systemDesc":	"axi_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_system_wrapper"
+		}]
+}
+TRACE::2026-06-29.16:38:12::SCWPlatform::Boot application domains not present, creating them
+TRACE::2026-06-29.16:38:12::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2026-06-29.16:38:12::SCWWriter::formatted JSON is {
+	"platformName":	"axi_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_system_wrapper",
+	"platHandOff":	"D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_system_wrapper",
+	"systems":	[{
+			"systemName":	"axi_system_wrapper",
+			"systemDesc":	"axi_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_system_wrapper"
+		}]
+}
+TRACE::2026-06-29.16:38:12::SCWWriter::formatted JSON is {
+	"platformName":	"axi_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_system_wrapper",
+	"platHandOff":	"D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_system_wrapper",
+	"systems":	[{
+			"systemName":	"axi_system_wrapper",
+			"systemDesc":	"axi_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_system_wrapper"
+		}]
+}
+TRACE::2026-06-29.16:38:12::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:12::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:12::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:12::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:12::SCWDomain::checking for install qemu data   : 
+TRACE::2026-06-29.16:38:12::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:12::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:12::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:12::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:12::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:12::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:12::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:12::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:12::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:12::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:12::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:12::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:12::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:12::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2026-06-29.16:38:12::SCWMssOS::No sw design opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:12::SCWMssOS::mss does not exists at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:12::SCWMssOS::Creating sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:12::SCWMssOS::Adding the swdes entry, created swdb D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:12::SCWMssOS::updating the scw layer changes to swdes at   D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:12::SCWMssOS::Writing mss at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:12::SCWMssOS::Completed writing the mss file at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-06-29.16:38:12::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2026-06-29.16:38:12::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2026-06-29.16:38:12::SCWMssOS::Completed writing the mss file at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-06-29.16:38:12::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2026-06-29.16:38:14::SCWMssOS::Saving the mss changes D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-29.16:38:14::SCWMssOS::Running validate of swdbs.
+KEYINFO::2026-06-29.16:38:14::SCWMssOS::Could not open the swdb for D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+KEYINFO::2026-06-29.16:38:14::SCWMssOS::Could not open the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss is not found
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Cleared the swdb table entry
+TRACE::2026-06-29.16:38:14::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2026-06-29.16:38:14::SCWMssOS::Writing the mss file completed D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::Commit changes completed.
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWWriter::formatted JSON is {
+	"platformName":	"axi_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_system_wrapper",
+	"platHandOff":	"D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_system_wrapper",
+	"systems":	[{
+			"systemName":	"axi_system_wrapper",
+			"systemDesc":	"axi_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_system_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"21a57f7a7515368fc1c8ff5369e72780",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2026-06-29.16:38:14::SCWPlatform::Started generating the artifacts platform axi_system_wrapper
+TRACE::2026-06-29.16:38:14::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-06-29.16:38:14::SCWPlatform::Started generating the artifacts for system configuration axi_system_wrapper
+LOG::2026-06-29.16:38:14::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2026-06-29.16:38:14::SCWSystem::Not a boot domain 
+LOG::2026-06-29.16:38:14::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2026-06-29.16:38:14::SCWDomain::Generating domain artifcats
+TRACE::2026-06-29.16:38:14::SCWMssOS::Generating standalone artifcats
+TRACE::2026-06-29.16:38:14::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::Completed writing the mss file at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-06-29.16:38:14::SCWMssOS::Mss edits present, copying mssfile into export location D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-06-29.16:38:14::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-06-29.16:38:14::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2026-06-29.16:38:14::SCWMssOS::skipping the bsp build ... 
+TRACE::2026-06-29.16:38:14::SCWMssOS::Copying to export directory.
+TRACE::2026-06-29.16:38:14::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-06-29.16:38:14::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2026-06-29.16:38:14::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2026-06-29.16:38:14::SCWSystem::Completed Processing the sysconfig axi_system_wrapper
+LOG::2026-06-29.16:38:14::SCWPlatform::Completed generating the artifacts for system configuration axi_system_wrapper
+TRACE::2026-06-29.16:38:14::SCWPlatform::Started preparing the platform 
+TRACE::2026-06-29.16:38:14::SCWSystem::Writing the bif file for system config axi_system_wrapper
+TRACE::2026-06-29.16:38:14::SCWSystem::dir created 
+TRACE::2026-06-29.16:38:14::SCWSystem::Writing the bif 
+TRACE::2026-06-29.16:38:14::SCWPlatform::Started writing the spfm file 
+TRACE::2026-06-29.16:38:14::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-06-29.16:38:14::SCWPlatform::Completed generating the platform
+TRACE::2026-06-29.16:38:14::SCWMssOS::Saving the mss changes D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-29.16:38:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-29.16:38:14::SCWMssOS::Commit changes completed.
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWWriter::formatted JSON is {
+	"platformName":	"axi_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_system_wrapper",
+	"platHandOff":	"D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_system_wrapper",
+	"systems":	[{
+			"systemName":	"axi_system_wrapper",
+			"systemDesc":	"axi_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_system_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"21a57f7a7515368fc1c8ff5369e72780",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-06-29.16:38:14::SCWPlatform::updated the xpfm file.
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::Saving the mss changes D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-29.16:38:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-29.16:38:14::SCWMssOS::Commit changes completed.
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWWriter::formatted JSON is {
+	"platformName":	"axi_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_system_wrapper",
+	"platHandOff":	"D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_system_wrapper",
+	"systems":	[{
+			"systemName":	"axi_system_wrapper",
+			"systemDesc":	"axi_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_system_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"21a57f7a7515368fc1c8ff5369e72780",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::Saving the mss changes D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-29.16:38:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-29.16:38:14::SCWMssOS::Commit changes completed.
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWWriter::formatted JSON is {
+	"platformName":	"axi_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_system_wrapper",
+	"platHandOff":	"D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_system_wrapper",
+	"systems":	[{
+			"systemName":	"axi_system_wrapper",
+			"systemDesc":	"axi_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_system_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"21a57f7a7515368fc1c8ff5369e72780",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2026-06-29.16:38:14::SCWPlatform::Started generating the artifacts platform axi_system_wrapper
+TRACE::2026-06-29.16:38:14::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-06-29.16:38:14::SCWPlatform::Started generating the artifacts for system configuration axi_system_wrapper
+LOG::2026-06-29.16:38:14::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2026-06-29.16:38:14::SCWDomain::Generating domain artifcats
+TRACE::2026-06-29.16:38:14::SCWMssOS::Generating standalone artifcats
+TRACE::2026-06-29.16:38:14::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::Completed writing the mss file at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-06-29.16:38:14::SCWMssOS::Mss edits present, copying mssfile into export location D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-06-29.16:38:14::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-06-29.16:38:14::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2026-06-29.16:38:14::SCWMssOS::skipping the bsp build ... 
+TRACE::2026-06-29.16:38:14::SCWMssOS::Copying to export directory.
+TRACE::2026-06-29.16:38:14::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-06-29.16:38:14::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2026-06-29.16:38:14::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2026-06-29.16:38:14::SCWSystem::Completed Processing the sysconfig axi_system_wrapper
+LOG::2026-06-29.16:38:14::SCWPlatform::Completed generating the artifacts for system configuration axi_system_wrapper
+TRACE::2026-06-29.16:38:14::SCWPlatform::Started preparing the platform 
+TRACE::2026-06-29.16:38:14::SCWSystem::Writing the bif file for system config axi_system_wrapper
+TRACE::2026-06-29.16:38:14::SCWSystem::dir created 
+TRACE::2026-06-29.16:38:14::SCWSystem::Writing the bif 
+TRACE::2026-06-29.16:38:14::SCWPlatform::Started writing the spfm file 
+TRACE::2026-06-29.16:38:14::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-06-29.16:38:14::SCWPlatform::Completed generating the platform
+TRACE::2026-06-29.16:38:14::SCWMssOS::Saving the mss changes D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-29.16:38:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-29.16:38:14::SCWMssOS::Commit changes completed.
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:38:14::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:38:14::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:38:14::SCWWriter::formatted JSON is {
+	"platformName":	"axi_system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_system_wrapper",
+	"platHandOff":	"D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_system_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_system_wrapper",
+	"systems":	[{
+			"systemName":	"axi_system_wrapper",
+			"systemDesc":	"axi_system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_system_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"21a57f7a7515368fc1c8ff5369e72780",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-06-29.16:38:14::SCWPlatform::updated the xpfm file.
+LOG::2026-06-29.16:43:45::SCWPlatform::Started generating the artifacts platform axi_system_wrapper
+TRACE::2026-06-29.16:43:45::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-06-29.16:43:45::SCWPlatform::Started generating the artifacts for system configuration axi_system_wrapper
+LOG::2026-06-29.16:43:45::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2026-06-29.16:43:45::SCWSystem::Not a boot domain 
+LOG::2026-06-29.16:43:45::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2026-06-29.16:43:45::SCWDomain::Generating domain artifcats
+TRACE::2026-06-29.16:43:45::SCWMssOS::Generating standalone artifcats
+TRACE::2026-06-29.16:43:45::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-06-29.16:43:45::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:43:45::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:43:45::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:43:45::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:43:45::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:43:45::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:43:45::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:43:45::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:43:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:43:45::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:43:45::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:43:45::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:43:45::SCWMssOS::Completed writing the mss file at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-06-29.16:43:45::SCWMssOS::Mss edits present, copying mssfile into export location D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:43:45::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-06-29.16:43:45::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-06-29.16:43:45::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2026-06-29.16:43:45::SCWMssOS::doing bsp build ... 
+TRACE::2026-06-29.16:43:45::SCWMssOS::System Command Ran  D: & cd  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2026-06-29.16:43:46::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2026-06-29.16:43:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2026-06-29.16:43:46::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-06-29.16:43:46::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-06-29.16:43:46::SCWMssOS::-Wextra"
+
+TRACE::2026-06-29.16:43:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2026-06-29.16:43:46::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-06-29.16:43:46::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-06-29.16:43:46::SCWMssOS::-Wextra"
+
+TRACE::2026-06-29.16:43:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v1_0/src"
+
+TRACE::2026-06-29.16:43:46::SCWMssOS::make -C microblaze_0/libsrc/gpio_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-06-29.16:43:46::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-06-29.16:43:46::SCWMssOS::-Wextra"
+
+TRACE::2026-06-29.16:43:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2026-06-29.16:43:46::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2026-06-29.16:43:46::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2026-06-29.16:43:46::SCWMssOS:: -Wextra"
+
+TRACE::2026-06-29.16:43:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/spi_axi_v1_0/src"
+
+TRACE::2026-06-29.16:43:46::SCWMssOS::make -C microblaze_0/libsrc/spi_axi_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2026-06-29.16:43:46::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2026-06-29.16:43:46::SCWMssOS::ll -Wextra"
+
+TRACE::2026-06-29.16:43:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2026-06-29.16:43:46::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2026-06-29.16:43:46::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2026-06-29.16:43:46::SCWMssOS::-Wall -Wextra"
+
+TRACE::2026-06-29.16:43:47::SCWMssOS::"Running Make include in microblaze_0/libsrc/timer_two_v1_0/src"
+
+TRACE::2026-06-29.16:43:47::SCWMssOS::make -C microblaze_0/libsrc/timer_two_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2026-06-29.16:43:47::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2026-06-29.16:43:47::SCWMssOS::Wall -Wextra"
+
+TRACE::2026-06-29.16:43:47::SCWMssOS::"Running Make include in microblaze_0/libsrc/uart_two_v1_0/src"
+
+TRACE::2026-06-29.16:43:47::SCWMssOS::make -C microblaze_0/libsrc/uart_two_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2026-06-29.16:43:47::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2026-06-29.16:43:47::SCWMssOS::all -Wextra"
+
+TRACE::2026-06-29.16:43:47::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v1_0/src"
+
+TRACE::2026-06-29.16:43:47::SCWMssOS::make -C microblaze_0/libsrc/gpio_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2026-06-29.16:43:47::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2026-06-29.16:43:47::SCWMssOS::xtra"
+
+TRACE::2026-06-29.16:43:47::SCWMssOS::"Compiling gpio..."
+
+TRACE::2026-06-29.16:43:48::SCWMssOS::"Running Make libs in microblaze_0/libsrc/spi_axi_v1_0/src"
+
+TRACE::2026-06-29.16:43:48::SCWMssOS::make -C microblaze_0/libsrc/spi_axi_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-06-29.16:43:48::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-06-29.16:43:48::SCWMssOS::-Wextra"
+
+TRACE::2026-06-29.16:43:48::SCWMssOS::"Compiling spi_axi..."
+
+ERROR::2026-06-29.16:43:48::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2026-06-29.16:43:48::SCWSystem::Error in Processing the domain standalone_microblaze_0
+TRACE::2026-06-29.16:43:52::SCWMssOS::cleaning the bsp 
+TRACE::2026-06-29.16:43:52::SCWMssOS::System Command Ran  D: & cd  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2026-06-29.16:43:52::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s clean 
+
+TRACE::2026-06-29.16:43:52::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s clean 
+
+TRACE::2026-06-29.16:43:52::SCWMssOS::make -C microblaze_0/libsrc/gpio_v1_0/src -s clean 
+
+TRACE::2026-06-29.16:43:52::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s clean 
+
+TRACE::2026-06-29.16:43:53::SCWMssOS::make -C microblaze_0/libsrc/spi_axi_v1_0/src -s clean 
+
+TRACE::2026-06-29.16:43:53::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s clean 
+
+TRACE::2026-06-29.16:43:53::SCWMssOS::make -C microblaze_0/libsrc/timer_two_v1_0/src -s clean 
+
+ERROR::2026-06-29.16:43:53::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2026-06-29.16:43:56::SCWPlatform::Started generating the artifacts platform axi_system_wrapper
+TRACE::2026-06-29.16:43:56::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-06-29.16:43:56::SCWPlatform::Started generating the artifacts for system configuration axi_system_wrapper
+LOG::2026-06-29.16:43:56::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2026-06-29.16:43:56::SCWSystem::Not a boot domain 
+LOG::2026-06-29.16:43:56::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2026-06-29.16:43:56::SCWDomain::Generating domain artifcats
+TRACE::2026-06-29.16:43:56::SCWMssOS::Generating standalone artifcats
+TRACE::2026-06-29.16:43:56::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-06-29.16:43:56::SCWPlatform::Trying to open the hw design at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:43:56::SCWPlatform::DSA given D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:43:56::SCWPlatform::DSA absoulate path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:43:56::SCWPlatform::DSA directory D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw
+TRACE::2026-06-29.16:43:56::SCWPlatform:: Platform Path D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/hw/axi_system_wrapper.xsa
+TRACE::2026-06-29.16:43:56::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-06-29.16:43:56::SCWPlatform::Trying to set the existing hwdb with name axi_system_wrapper_0
+TRACE::2026-06-29.16:43:56::SCWPlatform::Opened existing hwdb axi_system_wrapper_0
+TRACE::2026-06-29.16:43:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-29.16:43:56::SCWMssOS::Checking the sw design at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:43:56::SCWMssOS::DEBUG:  swdes dump  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::Sw design exists and opened at  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:43:56::SCWMssOS::Completed writing the mss file at D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-06-29.16:43:56::SCWMssOS::Mss edits present, copying mssfile into export location D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-29.16:43:56::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-06-29.16:43:56::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-06-29.16:43:56::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2026-06-29.16:43:56::SCWMssOS::doing bsp build ... 
+TRACE::2026-06-29.16:43:56::SCWMssOS::System Command Ran  D: & cd  D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_spi_new/axi_system_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2026-06-29.16:43:56::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-06-29.16:43:56::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-06-29.16:43:56::SCWMssOS::-Wextra"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-06-29.16:43:56::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-06-29.16:43:56::SCWMssOS::-Wextra"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v1_0/src"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::make -C microblaze_0/libsrc/gpio_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-06-29.16:43:56::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-06-29.16:43:56::SCWMssOS::-Wextra"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2026-06-29.16:43:56::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2026-06-29.16:43:56::SCWMssOS:: -Wextra"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/spi_axi_v1_0/src"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::make -C microblaze_0/libsrc/spi_axi_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2026-06-29.16:43:56::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2026-06-29.16:43:56::SCWMssOS::ll -Wextra"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2026-06-29.16:43:56::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2026-06-29.16:43:56::SCWMssOS::-Wall -Wextra"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/timer_two_v1_0/src"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::make -C microblaze_0/libsrc/timer_two_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2026-06-29.16:43:56::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2026-06-29.16:43:56::SCWMssOS::Wall -Wextra"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/uart_two_v1_0/src"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::make -C microblaze_0/libsrc/uart_two_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2026-06-29.16:43:56::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2026-06-29.16:43:56::SCWMssOS::all -Wextra"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v1_0/src"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::make -C microblaze_0/libsrc/gpio_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2026-06-29.16:43:56::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2026-06-29.16:43:56::SCWMssOS::xtra"
+
+TRACE::2026-06-29.16:43:56::SCWMssOS::"Compiling gpio..."
+
+TRACE::2026-06-29.16:43:57::SCWMssOS::"Running Make libs in microblaze_0/libsrc/spi_axi_v1_0/src"
+
+TRACE::2026-06-29.16:43:57::SCWMssOS::make -C microblaze_0/libsrc/spi_axi_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-06-29.16:43:57::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-06-29.16:43:57::SCWMssOS::-Wextra"
+
+TRACE::2026-06-29.16:43:57::SCWMssOS::"Compiling spi_axi..."
+
+ERROR::2026-06-29.16:43:57::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2026-06-29.16:43:57::SCWSystem::Error in Processing the domain standalone_microblaze_0

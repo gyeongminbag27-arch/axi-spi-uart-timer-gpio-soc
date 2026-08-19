@@ -1,0 +1,16 @@
+// Mem file initialization records.
+//
+// SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+// Vivado v2020.2 (64-bit)
+// Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+// Created on Tuesday June 30, 2026 - 01:25:09 am, from:
+//
+//     Map file     - d:\jh_workspace\0629_axi_spi_uart_timer_gpio\0629_axi_spi_uart_timer_gpio.gen\sources_1\bd\axi_system\axi_system.bmm
+//     Data file(s) - d:/jh_workspace/0629_axi_spi_uart_timer_gpio/0629_axi_spi_uart_timer_gpio.gen/sources_1/bd/axi_system/ip/axi_system_microblaze_0_0/data/mb_bootloop_le.elf
+//
+// Address space 'axi_system_i_microblaze_0.axi_system_i_microblaze_0_local_memory_lmb_bram_8K_7_ADDR_SPACE', bit lane [31:0].
+//
+// Bus width = 32 bits, number of bus blocks = 1.
+
+@00000000
+    B8000000

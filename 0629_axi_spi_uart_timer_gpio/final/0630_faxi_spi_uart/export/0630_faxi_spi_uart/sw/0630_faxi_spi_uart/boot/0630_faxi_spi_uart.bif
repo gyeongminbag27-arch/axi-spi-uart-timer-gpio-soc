@@ -1,0 +1,6 @@
+/*0630_faxi_spi_uart*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}

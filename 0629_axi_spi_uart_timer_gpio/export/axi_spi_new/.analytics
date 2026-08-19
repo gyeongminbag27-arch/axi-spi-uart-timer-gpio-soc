@@ -1,0 +1,7 @@
+timestamp=[2026-06-29 16:32:58], mode=WORKBENCH_START, duration=0:00:04.967, duration_ms=4967, data={}
+timestamp=[2026-06-29 16:32:58], mode=WORKBENCH_UI_INIT, duration=0:00:00.343, duration_ms=343, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-06-29 16:33:02], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:03.438, duration_ms=3438, data={}
+timestamp=[2026-06-29 16:38:16], mode=APP_CREATION, duration=0:00:06.006, duration_ms=6006, data={name=axi_spi_timer_new, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=axi_system_wrapper, application_type=application}
+timestamp=[2026-06-29 16:43:48], mode=PLATFORM_GENERATION, duration=0:00:04.222, duration_ms=4222, data={name=axi_system_wrapper}
+timestamp=[2026-06-29 16:43:53], mode=PLATFORM_GENERATION, duration=0:00:01.707, duration_ms=1707, data={name=axi_system_wrapper}
+timestamp=[2026-06-29 16:43:57], mode=PLATFORM_GENERATION, duration=0:00:02.243, duration_ms=2243, data={name=axi_system_wrapper}

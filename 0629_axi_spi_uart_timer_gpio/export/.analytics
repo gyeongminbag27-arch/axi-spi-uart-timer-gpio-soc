@@ -1,0 +1,43 @@
+timestamp=[2026-06-29 14:34:24], mode=WORKBENCH_START, duration=0:00:04.760, duration_ms=4760, data={}
+timestamp=[2026-06-29 14:34:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.330, duration_ms=330, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-06-29 14:34:30], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:04.734, duration_ms=4734, data={}
+timestamp=[2026-06-29 14:35:58], mode=APP_CREATION, duration=0:00:05.076, duration_ms=5076, data={name=platform_0629_axi, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=axi_system_wrapper, application_type=application}
+timestamp=[2026-06-29 14:38:00], mode=PLATFORM_GENERATION, duration=0:00:03.024, duration_ms=3024, data={name=axi_system_wrapper}
+timestamp=[2026-06-29 14:38:00], mode=BUILD, duration=0:00:00.433, duration_ms=433, data={name=platform_0629_axi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-29 14:41:22], mode=PLATFORM_GENERATION, duration=0:00:02.333, duration_ms=2333, data={name=axi_system_wrapper}
+timestamp=[2026-06-29 14:41:23], mode=BUILD, duration=0:00:00.173, duration_ms=173, data={name=platform_0629_axi, configuration=Debug, clean_build=true}
+timestamp=[2026-06-29 14:41:23], mode=BUILD, duration=0:00:00.422, duration_ms=422, data={name=platform_0629_axi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-29 14:41:25], mode=BUILD, duration=0:00:01.222, duration_ms=1222, data={name=platform_0629_axi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-29 14:48:11], mode=PLATFORM_GENERATION, duration=0:00:02.237, duration_ms=2237, data={name=axi_system_wrapper}
+timestamp=[2026-06-29 14:48:11], mode=BUILD, duration=0:00:00.192, duration_ms=192, data={name=platform_0629_axi, configuration=Debug, clean_build=true}
+timestamp=[2026-06-29 14:48:11], mode=BUILD, duration=0:00:00.234, duration_ms=234, data={name=platform_0629_axi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-29 14:49:52], mode=PLATFORM_GENERATION, duration=0:00:02.248, duration_ms=2248, data={name=axi_system_wrapper}
+timestamp=[2026-06-29 14:49:53], mode=BUILD, duration=0:00:00.423, duration_ms=423, data={name=platform_0629_axi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-29 14:50:13], mode=PLATFORM_GENERATION, duration=0:00:02.195, duration_ms=2195, data={name=axi_system_wrapper}
+timestamp=[2026-06-29 14:50:13], mode=BUILD, duration=0:00:00.417, duration_ms=417, data={name=platform_0629_axi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-29 14:50:26], mode=PLATFORM_GENERATION, duration=0:00:02.249, duration_ms=2249, data={name=axi_system_wrapper}
+timestamp=[2026-06-29 14:50:26], mode=BUILD, duration=0:00:00.411, duration_ms=411, data={name=platform_0629_axi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-29 14:50:40], mode=PLATFORM_GENERATION, duration=0:00:02.238, duration_ms=2238, data={name=axi_system_wrapper}
+timestamp=[2026-06-29 14:50:41], mode=BUILD, duration=0:00:00.426, duration_ms=426, data={name=platform_0629_axi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-29 14:50:52], mode=PLATFORM_GENERATION, duration=0:00:02.240, duration_ms=2240, data={name=axi_system_wrapper}
+timestamp=[2026-06-29 14:50:53], mode=BUILD, duration=0:00:00.413, duration_ms=413, data={name=platform_0629_axi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-29 14:51:07], mode=PLATFORM_GENERATION, duration=0:00:02.194, duration_ms=2194, data={name=axi_system_wrapper}
+timestamp=[2026-06-29 14:51:07], mode=BUILD, duration=0:00:00.233, duration_ms=233, data={name=platform_0629_axi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-29 14:52:28], mode=PLATFORM_GENERATION, duration=0:00:02.182, duration_ms=2182, data={name=axi_system_wrapper}
+timestamp=[2026-06-29 14:52:29], mode=BUILD, duration=0:00:00.420, duration_ms=420, data={name=platform_0629_axi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-29 14:54:28], mode=PLATFORM_GENERATION, duration=0:00:02.236, duration_ms=2236, data={name=axi_system_wrapper}
+timestamp=[2026-06-29 14:54:29], mode=BUILD, duration=0:00:00.974, duration_ms=974, data={name=platform_0629_axi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-29 15:10:21], mode=PLATFORM_GENERATION, duration=0:00:02.276, duration_ms=2276, data={name=axi_system_wrapper}
+timestamp=[2026-06-29 15:10:28], mode=PLATFORM_GENERATION, duration=0:00:01.619, duration_ms=1619, data={name=axi_system_wrapper}
+timestamp=[2026-06-29 15:11:52], mode=PLATFORM_GENERATION, duration=0:00:02.198, duration_ms=2198, data={name=axi_system_wrapper}
+timestamp=[2026-06-30 09:56:50], mode=PLATFORM_GENERATION, duration=0:00:02.485, duration_ms=2485, data={name=axi_system_wrapper}
+timestamp=[2026-06-30 09:56:54], mode=PLATFORM_GENERATION, duration=0:00:03.323, duration_ms=3323, data={name=axi_system_wrapper}
+timestamp=[2026-06-30 09:57:07], mode=PLATFORM_GENERATION, duration=0:00:01.533, duration_ms=1533, data={name=axi_system_wrapper}
+timestamp=[2026-06-30 09:57:08], mode=BUILD, duration=0:00:00.311, duration_ms=311, data={name=platform_0629_axi, configuration=Debug, clean_build=true}
+timestamp=[2026-06-30 09:57:08], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=platform_0629_axi_system, configuration=Debug, clean_build=true}
+timestamp=[2026-06-30 14:05:17], mode=PLATFORM_GENERATION, duration=0:00:05.483, duration_ms=5483, data={name=axi_system_wrapper}
+timestamp=[2026-06-30 14:05:28], mode=PLATFORM_GENERATION, duration=0:00:05.245, duration_ms=5245, data={name=axi_system_wrapper}
+timestamp=[2026-06-30 14:05:46], mode=PLATFORM_GENERATION, duration=0:00:02.232, duration_ms=2232, data={name=axi_system_wrapper}
+timestamp=[2026-06-30 14:05:54], mode=PLATFORM_GENERATION, duration=0:00:02.190, duration_ms=2190, data={name=axi_system_wrapper}
+timestamp=[2026-06-30 14:05:56], mode=BUILD, duration=0:00:02.357, duration_ms=2357, data={name=platform_0629_axi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-30 14:05:58], mode=BUILD, duration=0:00:01.243, duration_ms=1243, data={name=platform_0629_axi_system, configuration=Debug, clean_build=false}

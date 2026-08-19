@@ -1,0 +1,13 @@
+16:32:59 INFO  : Registering command handlers for Vitis TCF services
+16:32:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\jh_workspace\0629_axi_spi_uart_timer_gpio\export\axi_spi_new\temp_xsdb_launch_script.tcl
+16:33:02 INFO  : XSCT server has started successfully.
+16:33:02 INFO  : plnx-install-location is set to ''
+16:33:02 INFO  : Platform repository initialization has completed.
+16:33:08 INFO  : Successfully done setting XSCT server connection channel  
+16:33:08 INFO  : Successfully done query RDI_DATADIR 
+16:33:08 INFO  : Successfully done setting workspace for the tool. 
+16:38:14 INFO  : Result from executing command 'getProjects': axi_system_wrapper
+16:38:14 INFO  : Result from executing command 'getPlatforms': 
+16:38:14 WARN  : An unexpected exception occurred in the module 'platform project logging'
+16:38:14 INFO  : Platform 'axi_system_wrapper' is added to custom repositories.
+16:38:16 INFO  : Platform 'axi_system_wrapper' is added to custom repositories.

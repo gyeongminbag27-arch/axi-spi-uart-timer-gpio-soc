@@ -1,0 +1,49 @@
+#include "SPI.h"
+
+void SPI_Init(SPI_TypeDef *spi, uint32_t clkdiv)
+{
+    spi->CLKDIV = clkdiv;
+    spi->CR = 0;
+    spi->IRQ_CLR = 1;
+}
+
+uint8_t SPI_TransferExternal(SPI_TypeDef *spi, uint8_t data)
+{
+    spi->M_TXD = data;
+
+    // loopback_en=0, CPOL=0, CPHA=0, start=1
+    spi->CR = SPI_CR_START;
+
+    while (spi->SR & SPI_SR_BUSY) { }
+    while (!(spi->SR & SPI_SR_DONE)) { }
+
+    return (uint8_t)(spi->M_RXD & 0xFFU);
+}
+
+uint8_t SPI_TransferLoopback(SPI_TypeDef *spi, uint8_t master_tx, uint8_t slave_tx, uint8_t *slave_rx)
+{
+    spi->S_TXD = slave_tx;
+    spi->M_TXD = master_tx;
+
+    // loopback_en=1, start=1
+    spi->CR = SPI_CR_LOOPBACK_EN | SPI_CR_START;
+
+    while (spi->SR & SPI_SR_BUSY) { }
+    while (!(spi->SR & SPI_SR_DONE)) { }
+
+    if (slave_rx != 0) {
+        *slave_rx = (uint8_t)(spi->S_RXD & 0xFFU);
+    }
+
+    return (uint8_t)(spi->M_RXD & 0xFFU);
+}
+
+void SPI_SendStopWatch(uint8_t min, uint8_t sec, uint8_t centi_sec)
+{
+    // External slave mode. Slave board can decode this simple packet.
+    // Packet: 'S', min, sec, centisecond
+    (void)SPI_TransferExternal(SPI0, (uint8_t)'S');
+    (void)SPI_TransferExternal(SPI0, min);
+    (void)SPI_TransferExternal(SPI0, sec);
+    (void)SPI_TransferExternal(SPI0, centi_sec);
+}

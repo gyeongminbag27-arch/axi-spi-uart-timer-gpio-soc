@@ -1,0 +1,46 @@
+14:05:54 **** Build of configuration Debug for project platform_0629_axi ****
+make all 
+'Building file: ../src/HAL/UART/UART.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HAL/UART/UART.o" -ID:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/sw/axi_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/HAL/UART/UART.d" -MT"src/HAL/UART/UART.o" -o "src/HAL/UART/UART.o" "../src/HAL/UART/UART.c"
+'Finished building: ../src/HAL/UART/UART.c'
+' '
+'Building file: ../src/HAL/TMR/TMR.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HAL/TMR/TMR.o" -ID:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/sw/axi_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/HAL/TMR/TMR.d" -MT"src/HAL/TMR/TMR.o" -o "src/HAL/TMR/TMR.o" "../src/HAL/TMR/TMR.c"
+'Finished building: ../src/HAL/TMR/TMR.c'
+' '
+'Building file: ../src/HAL/SPI/SPI.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HAL/SPI/SPI.o" -ID:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/sw/axi_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/HAL/SPI/SPI.d" -MT"src/HAL/SPI/SPI.o" -o "src/HAL/SPI/SPI.o" "../src/HAL/SPI/SPI.c"
+'Finished building: ../src/HAL/SPI/SPI.c'
+' '
+'Building file: ../src/HAL/LCD/LCD.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HAL/LCD/LCD.o" -ID:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/sw/axi_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/HAL/LCD/LCD.d" -MT"src/HAL/LCD/LCD.o" -o "src/HAL/LCD/LCD.o" "../src/HAL/LCD/LCD.c"
+'Finished building: ../src/HAL/LCD/LCD.c'
+' '
+'Building file: ../src/HAL/GPIO/GPIO.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HAL/GPIO/GPIO.o" -ID:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/sw/axi_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/HAL/GPIO/GPIO.d" -MT"src/HAL/GPIO/GPIO.o" -o "src/HAL/GPIO/GPIO.o" "../src/HAL/GPIO/GPIO.c"
+'Finished building: ../src/HAL/GPIO/GPIO.c'
+' '
+'Building file: ../src/APP/StopWatchApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/APP/StopWatchApp.o" -ID:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/sw/axi_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/APP/StopWatchApp.d" -MT"src/APP/StopWatchApp.o" -o "src/APP/StopWatchApp.o" "../src/APP/StopWatchApp.c"
+'Finished building: ../src/APP/StopWatchApp.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -ID:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/sw/axi_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: platform_0629_axi.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/sw/axi_system_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "platform_0629_axi.elf"  ./src/HAL/UART/UART.o  ./src/HAL/TMR/TMR.o  ./src/HAL/SPI/SPI.o  ./src/HAL/LCD/LCD.o  ./src/HAL/GPIO/GPIO.o  ./src/APP/StopWatchApp.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/vitis/2020.2/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/9.2.0/real-ld.exe: cannot find -lxil
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:44: platform_0629_axi.elf] Error 1
+
+14:05:56 Build Finished (took 2s.345ms)
+

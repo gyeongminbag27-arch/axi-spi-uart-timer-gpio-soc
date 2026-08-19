@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jun 30 08:38:23 2026
+# Process ID: 110156
+# Current directory: D:/jh_workspace/0629_axi_spi_uart_timer_gpio/0629_axi_spi_uart_timer_gpio.runs/impl_1
+# Command line: vivado.exe -log axi_system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source axi_system_wrapper.tcl -notrace
+# Log file: D:/jh_workspace/0629_axi_spi_uart_timer_gpio/0629_axi_spi_uart_timer_gpio.runs/impl_1/axi_system_wrapper.vdi
+# Journal file: D:/jh_workspace/0629_axi_spi_uart_timer_gpio/0629_axi_spi_uart_timer_gpio.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source axi_system_wrapper.tcl -notrace

@@ -1,0 +1,68 @@
+#include "APP/StopWatchApp.h"
+
+#include "../../HAL/GPIO/GPIO.h"
+#include "../../HAL/LCD/LCD.h"
+#include "../../HAL/SPI/SPI.h"
+
+static StopWatchTime_t sw_time;
+
+void StopWatchApp_Init(void)
+{
+    sw_time.min = 0;
+    sw_time.sec = 0;
+    sw_time.centi_sec = 0;
+}
+
+void StopWatchApp_Tick10ms(uint8_t run, uint8_t clear)
+{
+    if (clear) {
+        sw_time.min = 0;
+        sw_time.sec = 0;
+        sw_time.centi_sec = 0;
+        return;
+    }
+
+    if (!run) {
+        return;
+    }
+
+    sw_time.centi_sec++;
+    if (sw_time.centi_sec >= 100) {
+        sw_time.centi_sec = 0;
+        sw_time.sec++;
+    }
+
+    if (sw_time.sec >= 60) {
+        sw_time.sec = 0;
+        sw_time.min++;
+    }
+
+    if (sw_time.min >= 100) {
+        sw_time.min = 0;
+    }
+}
+
+StopWatchTime_t StopWatchApp_GetTime(void)
+{
+    return sw_time;
+}
+
+void StopWatchApp_OutputLCD(void)
+{
+    LCD_PrintStopwatch(sw_time.min, sw_time.sec, sw_time.centi_sec);
+}
+
+void StopWatchApp_OutputSPI(void)
+{
+    SPI_SendStopWatch(sw_time.min, sw_time.sec, sw_time.centi_sec);
+}
+
+void StopWatchApp_OutputGPIO(uint8_t mode_lcd)
+{
+    // GPIOA: LED status. bit0=LCD mode, bit1=SPI mode
+    GPIO_WritePort(GPIOA, mode_lcd ? 0x01U : 0x02U);
+
+    // GPIOC/GPIOD: keep old-style raw status output available
+    GPIO_WritePort(GPIOC, sw_time.sec);
+    GPIO_WritePort(GPIOD, sw_time.centi_sec);
+}

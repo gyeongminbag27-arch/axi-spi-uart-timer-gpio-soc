@@ -1,0 +1,15 @@
+14:05:56 **** Build of configuration Debug for project platform_0629_axi_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 63926 D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/axi_system_wrapper.xpfm standalone_microblaze_0 D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/platform_0629_axi_system/Debug/system.bif
+xpfm path is not valid
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{::scw::generate_bif -xpfm D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/axi_system_wrapper.xpfm -domains standalone_microblaze_0 -bifpath D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/platform_0629_axi_system/Debug/system.bif}}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "::scw::generate_bif $GENERATE_BIF_ARGS"]"
+    (file "C:/Xilinx/Vitis/2020.2\scripts\vitis\util\generate_system_bif.tcl" line 25)
+make: *** [makefile:38: package] Error 1
+
+14:05:58 Build Finished (took 1s.237ms)
+

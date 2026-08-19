@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="platform_0629_axi" location="D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/platform_0629_axi" platform="D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/axi_system_wrapper.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="platform_0629_axi_system" sysConfig="axi_system_wrapper" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="84c93bba155a08284d31ce5a2450dd5e">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.906757906">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.496107020" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

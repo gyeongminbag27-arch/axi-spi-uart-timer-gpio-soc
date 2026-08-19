@@ -1,0 +1,25 @@
+timestamp=[2026-06-30 01:41:13], mode=WORKBENCH_START, duration=0:00:04.565, duration_ms=4565, data={}
+timestamp=[2026-06-30 01:41:14], mode=WORKBENCH_UI_INIT, duration=0:00:00.366, duration_ms=366, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-06-30 01:41:17], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:03.216, duration_ms=3216, data={}
+timestamp=[2026-06-30 01:45:10], mode=APP_CREATION, duration=0:00:06.041, duration_ms=6041, data={name=0630_spi_axi_platform, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=0630_faxi_spi_uart, application_type=application}
+timestamp=[2026-06-30 01:46:28], mode=PLATFORM_GENERATION, duration=0:00:02.150, duration_ms=2150, data={name=0630_faxi_spi_uart}
+timestamp=[2026-06-30 01:46:35], mode=PLATFORM_GENERATION, duration=0:00:06.000, duration_ms=6000, data={name=0630_faxi_spi_uart}
+timestamp=[2026-06-30 01:46:44], mode=BUILD, duration=0:00:02.230, duration_ms=2230, data={name=0630_spi_axi_platform, configuration=Debug, clean_build=false}
+timestamp=[2026-06-30 01:46:44], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=0630_spi_axi_platform_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-30 06:54:54], mode=PLATFORM_GENERATION, duration=0:00:02.317, duration_ms=2317, data={name=0630_faxi_spi_uart}
+timestamp=[2026-06-30 06:54:54], mode=BUILD, duration=0:00:00.172, duration_ms=172, data={name=0630_spi_axi_platform, configuration=Debug, clean_build=true}
+timestamp=[2026-06-30 06:54:55], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=0630_spi_axi_platform_system, configuration=Debug, clean_build=true}
+timestamp=[2026-06-30 06:55:26], mode=PLATFORM_GENERATION, duration=0:00:05.339, duration_ms=5339, data={name=0630_faxi_spi_uart}
+timestamp=[2026-06-30 06:55:27], mode=BUILD, duration=0:00:00.179, duration_ms=179, data={name=0630_spi_axi_platform, configuration=Debug, clean_build=true}
+timestamp=[2026-06-30 06:55:29], mode=BUILD, duration=0:00:02.026, duration_ms=2026, data={name=0630_spi_axi_platform, configuration=Debug, clean_build=false}
+timestamp=[2026-06-30 06:55:29], mode=BUILD, duration=0:00:00.104, duration_ms=104, data={name=0630_spi_axi_platform_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-30 07:34:43], mode=PLATFORM_GENERATION, duration=0:00:01.697, duration_ms=1697, data={name=0630_faxi_spi_uart}
+timestamp=[2026-06-30 07:34:43], mode=BUILD, duration=0:00:00.173, duration_ms=173, data={name=0630_spi_axi_platform, configuration=Debug, clean_build=true}
+timestamp=[2026-06-30 07:34:43], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=0630_spi_axi_platform_system, configuration=Debug, clean_build=true}
+timestamp=[2026-06-30 07:34:51], mode=PLATFORM_GENERATION, duration=0:00:04.361, duration_ms=4361, data={name=0630_faxi_spi_uart}
+timestamp=[2026-06-30 07:34:53], mode=BUILD, duration=0:00:01.716, duration_ms=1716, data={name=0630_spi_axi_platform, configuration=Debug, clean_build=false}
+timestamp=[2026-06-30 07:34:53], mode=BUILD, duration=0:00:00.100, duration_ms=100, data={name=0630_spi_axi_platform_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-30 07:36:44], mode=PLATFORM_GENERATION, duration=0:00:01.738, duration_ms=1738, data={name=0630_faxi_spi_uart}
+timestamp=[2026-06-30 07:36:44], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=0630_spi_axi_platform, configuration=Debug, clean_build=true}
+timestamp=[2026-06-30 07:36:51], mode=PLATFORM_GENERATION, duration=0:00:04.287, duration_ms=4287, data={name=0630_faxi_spi_uart}
+timestamp=[2026-06-30 07:36:53], mode=BUILD, duration=0:00:01.735, duration_ms=1735, data={name=0630_spi_axi_platform, configuration=Debug, clean_build=false}

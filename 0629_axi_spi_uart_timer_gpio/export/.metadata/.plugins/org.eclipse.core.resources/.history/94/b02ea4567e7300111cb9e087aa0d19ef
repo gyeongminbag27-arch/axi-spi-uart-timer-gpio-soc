@@ -1,0 +1,45 @@
+#include "HAL/UART/UART.h"
+
+void UART_StartInterrupt(UART_TypeDef *uart)
+{
+    uart->CR |= 1U;
+}
+
+void UART_StopInterrupt(UART_TypeDef *uart)
+{
+    uart->CR &= ~1U;
+}
+
+void UART_Transmit(UART_TypeDef *uart, uint8_t data)
+{
+    while (!(uart->SR & 1U)) { }
+    uart->TDR = data;
+}
+
+uint8_t UART_Receive(UART_TypeDef *uart)
+{
+    while (!(uart->SR & (1U << 1))) { }
+    return (uint8_t)(uart->RDR & 0xFFU);
+}
+
+uint8_t UART_RxAvailable(UART_TypeDef *uart)
+{
+    return (uart->SR & (1U << 1)) ? 1U : 0U;
+}
+
+void UART_Print(const char *str)
+{
+    while (*str) {
+        UART_Transmit(UART0, (uint8_t)(*str));
+        str++;
+    }
+}
+
+void UART_PrintHex8(uint8_t data)
+{
+    const char hex[] = "0123456789ABCDEF";
+    UART_Transmit(UART0, '0');
+    UART_Transmit(UART0, 'x');
+    UART_Transmit(UART0, (uint8_t)hex[(data >> 4) & 0x0F]);
+    UART_Transmit(UART0, (uint8_t)hex[data & 0x0F]);
+}

@@ -1,0 +1,25 @@
+01:41:14 INFO  : Registering command handlers for Vitis TCF services
+01:41:14 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\jh_workspace\0629_axi_spi_uart_timer_gpio\final\temp_xsdb_launch_script.tcl
+01:41:17 INFO  : XSCT server has started successfully.
+01:41:17 INFO  : plnx-install-location is set to ''
+01:41:17 INFO  : Successfully done setting XSCT server connection channel  
+01:41:17 INFO  : Platform repository initialization has completed.
+01:41:22 INFO  : Successfully done setting workspace for the tool. 
+01:41:22 INFO  : Successfully done query RDI_DATADIR 
+01:45:07 INFO  : Result from executing command 'getProjects': 0630_faxi_spi_uart
+01:45:07 INFO  : Result from executing command 'getPlatforms': 
+01:45:07 WARN  : An unexpected exception occurred in the module 'platform project logging'
+01:45:08 INFO  : Platform '0630_faxi_spi_uart' is added to custom repositories.
+01:45:10 INFO  : Platform '0630_faxi_spi_uart' is added to custom repositories.
+01:46:34 INFO  : Result from executing command 'getProjects': 0630_faxi_spi_uart
+01:46:34 INFO  : Result from executing command 'getPlatforms': 0630_faxi_spi_uart|D:/jh_workspace/0629_axi_spi_uart_timer_gpio/final/0630_faxi_spi_uart/export/0630_faxi_spi_uart/0630_faxi_spi_uart.xpfm
+01:46:42 INFO  : Checking for BSP changes to sync application flags for project '0630_spi_axi_platform'...
+06:55:26 INFO  : Result from executing command 'getProjects': 0630_faxi_spi_uart
+06:55:26 INFO  : Result from executing command 'getPlatforms': 0630_faxi_spi_uart|D:/jh_workspace/0629_axi_spi_uart_timer_gpio/final/0630_faxi_spi_uart/export/0630_faxi_spi_uart/0630_faxi_spi_uart.xpfm
+06:55:27 INFO  : Checking for BSP changes to sync application flags for project '0630_spi_axi_platform'...
+07:34:51 INFO  : Result from executing command 'getProjects': 0630_faxi_spi_uart
+07:34:51 INFO  : Result from executing command 'getPlatforms': 0630_faxi_spi_uart|D:/jh_workspace/0629_axi_spi_uart_timer_gpio/final/0630_faxi_spi_uart/export/0630_faxi_spi_uart/0630_faxi_spi_uart.xpfm
+07:34:51 INFO  : Checking for BSP changes to sync application flags for project '0630_spi_axi_platform'...
+07:36:51 INFO  : Result from executing command 'getProjects': 0630_faxi_spi_uart
+07:36:51 INFO  : Result from executing command 'getPlatforms': 0630_faxi_spi_uart|D:/jh_workspace/0629_axi_spi_uart_timer_gpio/final/0630_faxi_spi_uart/export/0630_faxi_spi_uart/0630_faxi_spi_uart.xpfm
+07:36:51 INFO  : Checking for BSP changes to sync application flags for project '0630_spi_axi_platform'...

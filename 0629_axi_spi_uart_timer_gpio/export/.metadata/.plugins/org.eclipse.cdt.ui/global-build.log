@@ -1,0 +1,159 @@
+14:05:51 **** Build of project axi_system_wrapper ****
+buildplatform.bat 63926 axi_system_wrapper  
+XSDB Server Channel: tcfchan#22
+Building the BSP Library for domain  - standalone_microblaze_0 on processor microblaze_0
+make --no-print-directory seq_libs
+
+"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra"
+
+"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra"
+
+"Running Make include in microblaze_0/libsrc/gpio_v1_0/src"
+
+make -C microblaze_0/libsrc/gpio_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra"
+
+"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+ -Wextra"
+
+"Running Make include in microblaze_0/libsrc/spi_axi_v1_0/src"
+
+make -C microblaze_0/libsrc/spi_axi_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+ll -Wextra"
+
+"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+-Wall -Wextra"
+
+"Running Make include in microblaze_0/libsrc/timer_two_v1_0/src"
+
+make -C microblaze_0/libsrc/timer_two_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+Wall -Wextra"
+
+"Running Make include in microblaze_0/libsrc/uart_two_v1_0/src"
+
+make -C microblaze_0/libsrc/uart_two_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+all -Wextra"
+
+"Running Make libs in microblaze_0/libsrc/gpio_v1_0/src"
+
+make -C microblaze_0/libsrc/gpio_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+xtra"
+
+"Compiling gpio..."
+
+gpio_selftest.c: In function 'GPIO_Reg_SelfTest':
+gpio_selftest.c:52:53: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+   52 |    if ( GPIO_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+      |                                                     ^~
+gpio_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+   36 |  int Index;
+      |      ^~~~~
+"Running Make libs in microblaze_0/libsrc/spi_axi_v1_0/src"
+
+make -C microblaze_0/libsrc/spi_axi_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra"
+
+"Compiling spi_axi..."
+
+spi_axi_selftest.c: In function 'SPI_AXI_Reg_SelfTest':
+spi_axi_selftest.c:52:56: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+   52 |    if ( SPI_AXI_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+      |                                                        ^~
+spi_axi_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+   36 |  int Index;
+      |      ^~~~~
+mb-ar: *.o: Invalid argument
+make[2]: *** [Makefile:19: libs] Error 1
+make[1]: *** [Makefile:46: microblaze_0/libsrc/spi_axi_v1_0/src/make.libs] Error 2
+make: *** [Makefile:18: all] Error 2
+Failed to build  the bsp sources for domain - standalone_microblaze_0
+Failed to generate the platform.
+Reason: Failed to build  the bsp sources for domain - standalone_microblaze_0
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active axi_system_wrapper; platform generate }}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform generate $target"]"
+    invoked from within
+"if { $iswindows == 1 } {    
+
+    set XSDB_PORT [lindex $argv 0]
+    set PLATFORM_NAME [lindex $argv 1]
+    set arglen [llength $argv]
+    set lastind..."
+    (file "C:/Xilinx/Vitis/2020.2\scripts\vitis\util\buildplatform.tcl" line 11)
+14:05:54 **** Build of configuration Debug for project platform_0629_axi ****
+make all 
+'Building file: ../src/HAL/UART/UART.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HAL/UART/UART.o" -ID:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/sw/axi_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/HAL/UART/UART.d" -MT"src/HAL/UART/UART.o" -o "src/HAL/UART/UART.o" "../src/HAL/UART/UART.c"
+'Finished building: ../src/HAL/UART/UART.c'
+' '
+'Building file: ../src/HAL/TMR/TMR.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HAL/TMR/TMR.o" -ID:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/sw/axi_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/HAL/TMR/TMR.d" -MT"src/HAL/TMR/TMR.o" -o "src/HAL/TMR/TMR.o" "../src/HAL/TMR/TMR.c"
+'Finished building: ../src/HAL/TMR/TMR.c'
+' '
+'Building file: ../src/HAL/SPI/SPI.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HAL/SPI/SPI.o" -ID:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/sw/axi_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/HAL/SPI/SPI.d" -MT"src/HAL/SPI/SPI.o" -o "src/HAL/SPI/SPI.o" "../src/HAL/SPI/SPI.c"
+'Finished building: ../src/HAL/SPI/SPI.c'
+' '
+'Building file: ../src/HAL/LCD/LCD.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HAL/LCD/LCD.o" -ID:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/sw/axi_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/HAL/LCD/LCD.d" -MT"src/HAL/LCD/LCD.o" -o "src/HAL/LCD/LCD.o" "../src/HAL/LCD/LCD.c"
+'Finished building: ../src/HAL/LCD/LCD.c'
+' '
+'Building file: ../src/HAL/GPIO/GPIO.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HAL/GPIO/GPIO.o" -ID:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/sw/axi_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/HAL/GPIO/GPIO.d" -MT"src/HAL/GPIO/GPIO.o" -o "src/HAL/GPIO/GPIO.o" "../src/HAL/GPIO/GPIO.c"
+'Finished building: ../src/HAL/GPIO/GPIO.c'
+' '
+'Building file: ../src/APP/StopWatchApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/APP/StopWatchApp.o" -ID:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/sw/axi_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/APP/StopWatchApp.d" -MT"src/APP/StopWatchApp.o" -o "src/APP/StopWatchApp.o" "../src/APP/StopWatchApp.c"
+'Finished building: ../src/APP/StopWatchApp.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -ID:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/sw/axi_system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: platform_0629_axi.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/sw/axi_system_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "platform_0629_axi.elf"  ./src/HAL/UART/UART.o  ./src/HAL/TMR/TMR.o  ./src/HAL/SPI/SPI.o  ./src/HAL/LCD/LCD.o  ./src/HAL/GPIO/GPIO.o  ./src/APP/StopWatchApp.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/vitis/2020.2/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/9.2.0/real-ld.exe: cannot find -lxil
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:44: platform_0629_axi.elf] Error 1
+14:05:56 **** Build of configuration Debug for project platform_0629_axi_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 63926 D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/axi_system_wrapper.xpfm standalone_microblaze_0 D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/platform_0629_axi_system/Debug/system.bif
+xpfm path is not valid
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{::scw::generate_bif -xpfm D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/axi_system_wrapper/export/axi_system_wrapper/axi_system_wrapper.xpfm -domains standalone_microblaze_0 -bifpath D:/jh_workspace/0629_axi_spi_uart_timer_gpio/export/platform_0629_axi_system/Debug/system.bif}}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "::scw::generate_bif $GENERATE_BIF_ARGS"]"
+    (file "C:/Xilinx/Vitis/2020.2\scripts\vitis\util\generate_system_bif.tcl" line 25)
+make: *** [makefile:38: package] Error 1

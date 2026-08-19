@@ -1,0 +1,149 @@
+#include "LCD.h"
+
+static uint8_t lcd_backlight = LCD_BLA;
+
+static void LCD_DelayUs(uint32_t us)
+{
+    volatile uint32_t i;
+    volatile uint32_t count;
+
+    for (count = 0; count < us; count++) {
+        for (i = 0; i < 20; i++) {
+            __asm__("nop");
+        }
+    }
+}
+
+static void LCD_WriteGPIO(uint8_t value)
+{
+    GPIO_WritePort(LCD_GPIO, (uint32_t)(value | lcd_backlight));
+}
+
+static void LCD_PulseEnable(uint8_t value)
+{
+    LCD_WriteGPIO(value | LCD_E);
+    LCD_DelayUs(2);
+
+    LCD_WriteGPIO(value & (uint8_t)(~LCD_E));
+    LCD_DelayUs(50);
+}
+
+static void LCD_Write4Bits(uint8_t nibble, uint8_t rs)
+{
+    uint8_t value = 0;
+
+    if (rs) value |= LCD_RS;
+
+    if (nibble & 0x01) value |= LCD_D4;
+    if (nibble & 0x02) value |= LCD_D5;
+    if (nibble & 0x04) value |= LCD_D6;
+    if (nibble & 0x08) value |= LCD_D7;
+
+    LCD_PulseEnable(value);
+}
+
+static void LCD_Write8Bits(uint8_t data, uint8_t rs)
+{
+    LCD_Write4Bits((data >> 4) & 0x0F, rs);
+    LCD_Write4Bits(data & 0x0F, rs);
+}
+
+void LCD_Command(uint8_t cmd)
+{
+    LCD_Write8Bits(cmd, 0);
+
+    if (cmd == 0x01 || cmd == 0x02) {
+        LCD_DelayUs(3000);
+    } else {
+        LCD_DelayUs(100);
+    }
+}
+
+void LCD_Data(uint8_t data)
+{
+    LCD_Write8Bits(data, 1);
+    LCD_DelayUs(100);
+}
+
+void LCD_Init(void)
+{
+    GPIO_SetMode(LCD_GPIO, GPIO_OUTPUT);
+
+    lcd_backlight = LCD_BLA;
+    LCD_WriteGPIO(0x00);
+
+    LCD_DelayUs(50000);
+
+    // HD44780 4-bit initialization sequence
+    LCD_Write4Bits(0x03, 0);
+    LCD_DelayUs(5000);
+
+    LCD_Write4Bits(0x03, 0);
+    LCD_DelayUs(5000);
+
+    LCD_Write4Bits(0x03, 0);
+    LCD_DelayUs(2000);
+
+    LCD_Write4Bits(0x02, 0);
+    LCD_DelayUs(2000);
+
+    LCD_Command(0x28); // 4-bit, 2-line, 5x8 font
+    LCD_Command(0x0C); // display on, cursor off
+    LCD_Command(0x06); // entry mode increment
+
+    LCD_Clear();
+}
+
+void LCD_Clear(void)
+{
+    LCD_Command(0x01);
+    LCD_DelayUs(3000);
+}
+
+void LCD_SetCursor(uint8_t row, uint8_t col)
+{
+    uint8_t addr = (row == 0) ? (0x00 + col) : (0x40 + col);
+    LCD_Command(0x80 | addr);
+}
+
+void LCD_Print(const char *str)
+{
+    while (*str) {
+        LCD_Data((uint8_t)(*str));
+        str++;
+    }
+}
+
+static char digit(uint8_t v)
+{
+    return (char)('0' + (v % 10));
+}
+
+void LCD_PrintStopwatch(uint8_t min, uint8_t sec, uint8_t centi_sec)
+{
+    char line[17];
+
+    line[0]  = 'T';
+    line[1]  = 'I';
+    line[2]  = 'M';
+    line[3]  = 'E';
+    line[4]  = ' ';
+    line[5]  = digit(min / 10);
+    line[6]  = digit(min);
+    line[7]  = ':';
+    line[8]  = digit(sec / 10);
+    line[9]  = digit(sec);
+    line[10] = '.';
+    line[11] = digit(centi_sec / 10);
+    line[12] = digit(centi_sec);
+    line[13] = ' ';
+    line[14] = ' ';
+    line[15] = ' ';
+    line[16] = '\0';
+
+    LCD_SetCursor(0, 0);
+    LCD_Print("STOPWATCH       ");
+
+    LCD_SetCursor(1, 0);
+    LCD_Print(line);
+}

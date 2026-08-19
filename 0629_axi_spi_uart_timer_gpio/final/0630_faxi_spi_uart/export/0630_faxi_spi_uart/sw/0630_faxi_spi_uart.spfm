@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="0630_faxi_spi_uart"
+              sdx:version="1.0"
+              sdx:schemaVersion="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+0630_faxi_spi_uart
+    </sdx:description>
+    <sdx:systemConfigurations sdx:defaultConfiguration="0630_faxi_spi_uart">
+        <sdx:configuration sdx:name="0630_faxi_spi_uart"
+                           sdx:displayName="0630_faxi_spi_uart"
+                           sdx:defaultProcessorGroup="standalone_microblaze_0"
+                           sdx:runtimes="cpp">
+            <sdx:description>0630_faxi_spi_uart</sdx:description>
+            <sdx:bootImages sdx:default="standard">
+                <sdx:image sdx:name="standard"
+                            sdx:bif="0630_faxi_spi_uart/boot/0630_faxi_spi_uart.bif"
+                            sdx:readme="0630_faxi_spi_uart/boot/generic.readme"
+                            />
+            </sdx:bootImages>
+            <sdx:processorGroup sdx:name="standalone_microblaze_0"
+                                sdx:displayName="standalone_microblaze_0"
+                                sdx:cpuType="microblaze_0"
+                                sdx:cpuInstance="microblaze_0">
+                <sdx:os sdx:name="standalone"
+                        sdx:displayName="standalone"
+                        sdx:bspLibraryPaths="0630_faxi_spi_uart/standalone_microblaze_0/bsplib/lib"
+                        sdx:bspIncludePaths="0630_faxi_spi_uart/standalone_microblaze_0/bspinclude/include"
+                        sdx:bspConfig="0630_faxi_spi_uart/standalone_microblaze_0/system.mss"
+                />
+            </sdx:processorGroup>
+        </sdx:configuration>
+    </sdx:systemConfigurations>
+</sdx:platform>
