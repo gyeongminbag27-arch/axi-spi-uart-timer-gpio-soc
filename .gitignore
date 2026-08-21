@@ -1,0 +1,7 @@
+# Vivado generated files
+0629_axi_spi_uart_timer_gpio/0629_axi_spi_uart_timer_gpio.cache/
+0629_axi_spi_uart_timer_gpio/0629_axi_spi_uart_timer_gpio.gen/
+0629_axi_spi_uart_timer_gpio/0629_axi_spi_uart_timer_gpio.runs/
+
+# Backup files
+*.bak
