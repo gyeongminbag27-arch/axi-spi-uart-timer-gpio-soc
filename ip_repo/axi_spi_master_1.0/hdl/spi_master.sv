@@ -145,10 +145,14 @@ end
 
                             if (bit_cnt == 3'd7) begin
                                 state   <= STOP;
+                                 if (cpha_r == 1'b0)
+                                rx_data <= rx_shift_reg;
+                            else
                                 rx_data <= {rx_shift_reg[6:0], miso};
-                            end else begin
-                                bit_cnt <= bit_cnt + 3'd1;
-                            end
+                        
+                        end else begin
+                            bit_cnt <= bit_cnt + 3'd1;
+                        end
                         end
                     end
                 end
