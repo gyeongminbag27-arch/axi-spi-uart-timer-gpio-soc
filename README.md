@@ -1,4 +1,4 @@
-# AXI4-Lite SoC with SPI / UART / Timer / GPIO
+# AXI4-Lite Based MicroBlaze SoC Design
 
 MicroBlaze 기반 SoC에서 AXI4-Lite Bus를 이용해 GPIO, UART, Timer, SPI Peripheral을 Memory-Mapped 방식으로 연결하고 제어하는 구조를 학습·구현한 프로젝트입니다.
 
