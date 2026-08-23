@@ -5,3 +5,8 @@
 
 # Backup files
 *.bak
+
+# Vivado packaged-IP temporary files
+ip_repo/**/tmp_edit_project*
+ip_repo/**/*.v~
+ip_repo/**/.*.un~
