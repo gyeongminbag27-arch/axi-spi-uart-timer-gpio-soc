@@ -9,9 +9,9 @@ RELEASEDIR=../../../lib
 INCLUDEDIR=../../../include
 INCLUDES=-I./. -I${INCLUDEDIR}
 
-INCLUDEFILES=*.h
-LIBSOURCES=*.c
-OUTS = *.o
+INCLUDEFILES=$(wildcard *.h)
+LIBSOURCES=$(wildcard *.c)
+OUTS=$(LIBSOURCES:.c=.o)
 
 libs:
 	echo "Compiling axi_spi_master..."
@@ -23,4 +23,4 @@ include:
 	${CP} $(INCLUDEFILES) $(INCLUDEDIR)
 
 clean:
-	rm -rf ${OUTS}
+	rm -f ${OUTS}
