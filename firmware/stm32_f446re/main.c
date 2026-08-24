@@ -1,3 +1,4 @@
+#include "spi.h"
 #include "device_driver.h"
 #include <stdio.h>
 #include <string.h>
@@ -305,7 +306,7 @@ void Main(void)
     char key;
     char previous_key = 0;
     char ble_data;
-
+    unsigned char spi_rx;
     char keypad_input[PASSWORD_LENGTH + 1] = {0};
     char ble_input[PASSWORD_LENGTH + 1] = {0};
 
@@ -320,7 +321,8 @@ void Main(void)
     OLED_Init();
 
     Uart1_Init(9600);
-
+    SPI2_Slave_Init();
+    *((volatile unsigned char *)&SPI2->DR) = 0x3C;
     /*
      * 다른 초기화 함수가 GPIO 설정을 변경할 수 있으므로
      * Keypad를 마지막에 초기화
@@ -341,7 +343,27 @@ void Main(void)
     Uart1_Send_String("> ");
 
     for (;;)
+    {   
+          /* ---------- FPGA SPI ---------- */
+
+    if (SPI2->SR & SPI_SR_RXNE)
     {
+        spi_rx = *((volatile unsigned char *)&SPI2->DR);
+
+        printf("[SPI2] RX = 0x%02X\r\n", spi_rx);
+
+        if (spi_rx == 0xA5)
+        {
+            printf("[SPI2] FPGA TEST PASS\r\n");
+        }
+
+        /* 다음 transfer용 응답값 */
+        *((volatile unsigned char *)&SPI2->DR) = 0x3C;
+    }
+
+    /* ---------- Keypad ---------- */
+
+
         key = Keypad_Get_Key();
 
         if ((key != 0) &&
