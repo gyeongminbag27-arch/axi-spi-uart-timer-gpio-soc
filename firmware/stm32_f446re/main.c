@@ -17,11 +17,36 @@ volatile int TIM4_Expired = 0;
 #define MOTOR_STEP_DELAY    5
 
 
+/* Smart Home SPI Command */
+#define CMD_NOP              0x00
+#define CMD_GET_STATUS       0x10
+#define CMD_DOOR_OPEN        0x20
+#define CMD_DOOR_CLOSE       0x21
+
+
+/* Smart Home SPI Response */
+#define RESP_ACK             0x80
+#define RESP_STATUS_CLOSED   0x81
+#define RESP_STATUS_OPEN     0x82
+#define RESP_INVALID_CMD     0xFF
+
+
 typedef enum
 {
     INPUT_KEYPAD = 0,
     INPUT_BLE
 } Input_Source;
+
+
+typedef enum
+{
+    DOOR_STATUS_CLOSED = 0,
+    DOOR_STATUS_OPEN
+} Door_Status;
+
+
+/* 현재 Door 상태 */
+static Door_Status door_status = DOOR_STATUS_CLOSED;
 
 
 /* 비밀번호 */
@@ -138,9 +163,79 @@ static void Door_Open(void)
 
     Motor_Rotate(1);
 
+    door_status = DOOR_STATUS_OPEN;
+
     TIM2_Delay(1000);
 
     OLED_Show_Main_Screen();
+}
+
+
+static void Door_Close(void)
+{
+    printf("Door Close\r\n");
+
+    Uart1_Send_String("\r\nDOOR CLOSE\r\n");
+
+    OLED_Clear();
+    OLED_Print(0, 0, "DOOR CLOSE");
+
+    printf("[MOTOR] CLOSE START\r\n");
+
+    Motor_Rotate(-1);
+
+    printf("[MOTOR] CLOSE END\r\n");
+
+    door_status = DOOR_STATUS_CLOSED;
+
+    TIM2_Delay(1000);
+
+    OLED_Show_Main_Screen();
+}
+
+
+static unsigned char Smart_Home_Process_Command(
+    unsigned char cmd)
+{
+    switch (cmd)
+    {
+        case CMD_NOP:
+            return 0x00;
+
+
+        case CMD_GET_STATUS:
+            printf("[SPI2] CMD_GET_STATUS\r\n");
+
+            if (door_status == DOOR_STATUS_OPEN)
+            {
+                return RESP_STATUS_OPEN;
+            }
+
+            return RESP_STATUS_CLOSED;
+
+
+        case CMD_DOOR_OPEN:
+            printf("[SPI2] CMD_DOOR_OPEN\r\n");
+
+            Door_Open();
+
+            return RESP_ACK;
+
+
+        case CMD_DOOR_CLOSE:
+            printf("[SPI2] CMD_DOOR_CLOSE\r\n");
+
+            Door_Close();
+
+            return RESP_ACK;
+
+
+        default:
+            printf("[SPI2] INVALID CMD = 0x%02X\r\n",
+                   cmd);
+
+            return RESP_INVALID_CMD;
+    }
 }
 
 
@@ -306,12 +401,16 @@ void Main(void)
     char key;
     char previous_key = 0;
     char ble_data;
+
     unsigned char spi_rx;
+    unsigned char spi_tx;
+
     char keypad_input[PASSWORD_LENGTH + 1] = {0};
     char ble_input[PASSWORD_LENGTH + 1] = {0};
 
     int keypad_input_index = 0;
     int ble_input_index = 0;
+
 
     Sys_Init(115200);
 
@@ -321,18 +420,31 @@ void Main(void)
     OLED_Init();
 
     Uart1_Init(9600);
+
     SPI2_Slave_Init();
-    *((volatile unsigned char *)&SPI2->DR) = 0x3C;
+
+    /*
+     * SPI Slave 초기 TX 값
+     *
+     * Master가 첫 번째 byte를 전송할 때
+     * 동시에 읽게 되는 값.
+     */
+    *((volatile unsigned char *)&SPI2->DR) = 0x00;
+
+
     /*
      * 다른 초기화 함수가 GPIO 설정을 변경할 수 있으므로
      * Keypad를 마지막에 초기화
      */
     Keypad_Init();
 
+
     OLED_Show_Main_Screen();
+
 
     printf("Smart Door Lock Start\r\n");
     printf("Keypad or BLE: 4-digit password + #\r\n");
+
 
     Uart1_Send_String(
         "\r\nSMART DOOR LOCK READY\r\n");
@@ -342,34 +454,50 @@ void Main(void)
 
     Uart1_Send_String("> ");
 
+
     for (;;)
-    {   
-          /* ---------- FPGA SPI ---------- */
-
-    if (SPI2->SR & SPI_SR_RXNE)
     {
-        spi_rx = *((volatile unsigned char *)&SPI2->DR);
+        /* ======================================== */
+        /* FPGA SPI                                */
+        /* ======================================== */
 
-        printf("[SPI2] RX = 0x%02X\r\n", spi_rx);
-
-        if (spi_rx == 0xA5)
+        if (SPI2->SR & SPI_SR_RXNE)
         {
-            printf("[SPI2] FPGA TEST PASS\r\n");
+            spi_rx =
+                *((volatile unsigned char *)&SPI2->DR);
+
+            printf("[SPI2] RX = 0x%02X\r\n",
+                   spi_rx);
+
+
+            spi_tx =
+                Smart_Home_Process_Command(spi_rx);
+
+
+            /*
+             * 다음 SPI Transfer에서
+             * FPGA가 읽게 될 Response를 미리 저장
+             */
+            *((volatile unsigned char *)&SPI2->DR) =
+                spi_tx;
+
+
+            printf("[SPI2] NEXT TX = 0x%02X\r\n",
+                   spi_tx);
         }
 
-        /* 다음 transfer용 응답값 */
-        *((volatile unsigned char *)&SPI2->DR) = 0x3C;
-    }
 
-    /* ---------- Keypad ---------- */
-
+        /* ======================================== */
+        /* Keypad                                  */
+        /* ======================================== */
 
         key = Keypad_Get_Key();
 
         if ((key != 0) &&
             (previous_key == 0))
         {
-            printf("[KEYPAD] %c\r\n", key);
+            printf("[KEYPAD] %c\r\n",
+                   key);
 
             Input_Process(
                 INPUT_KEYPAD,
@@ -381,11 +509,16 @@ void Main(void)
         previous_key = key;
 
 
+        /* ======================================== */
+        /* BLE UART                                */
+        /* ======================================== */
+    /*
         if (Macro_Check_Bit_Set(USART1->SR, 5))
         {
             ble_data = (char)USART1->DR;
 
-            printf("[BLE] %c\r\n", ble_data);
+            printf("[BLE] %c\r\n",
+                   ble_data);
 
             Input_Process(
                 INPUT_BLE,
@@ -393,5 +526,6 @@ void Main(void)
                 ble_input,
                 &ble_input_index);
         }
+                */
     }
 }
